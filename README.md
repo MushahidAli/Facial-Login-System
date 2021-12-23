@@ -1,5 +1,8 @@
-# Facial-Login-System
+# Facial Login System
 This dlib-based facial login system is a technology capable of matching a human face from a digital webcam frame capture against a database[number of Numpy Arrays - 128 computer 128-d (i.e., a list of 128 real-valued numbers) that is used to quantify the face] of faces, typically employed to authenticate users through ID verification services, works by pinpointing and measuring facial features from a given image.
+
+![image](https://user-images.githubusercontent.com/30910296/147269697-20a59a0a-c240-4683-a1a1-539228641f8e.png)
+
 
 # INSTALLATION-
 Before using the code, first make sure you have installed the appropriate Python Libraries! Or else, the code won't execute!
