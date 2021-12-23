@@ -7,7 +7,7 @@ Before using the code, first make sure you have installed the appropriate Python
 **LIST -**
 
 #1. I'm assuming you are already familiar with the OpenCV Python library used in the Computer Vision Field.
-(i.e., pip install opencv-contrib-python) - Pre-built CPU-only OpenCV package.
+(i.e., ```pip install opencv-contrib-python```) - Pre-built CPU-only OpenCV package.
 
 #2. Install a .cpp[C++] based compiler so that the dlib python library will execute on Python platform!
 (i.e., Install Visual Studio Community 2019 and in the Workloads, select "DESKTOP DEVELOPMENT WITH C++")
@@ -19,6 +19,11 @@ Before using the code, first make sure you have installed the appropriate Python
 (i.e., ```pip install cmake```) - CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice.
 
 #5. And finally, install Face Recognition Library that makes use of DLib and all the other previously mentioned libraries!
+(i.e., ```pip install face-recognition```) - Recognize and manipulate faces from Python or from the command line with
+the world’s simplest face recognition library.
+Built using dlib’s state-of-the-art face recognition
+built with deep learning. The model has an accuracy of 99.38% on the
+Labeled Faces in the Wild benchmark.
 
 #6. This next library is important only if you are using the code for "Facial-Login-Via-Internet" folder!
 (i.e., ```pip install imagekitio```) - library for storing images online!
