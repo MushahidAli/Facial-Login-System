@@ -43,3 +43,5 @@ imagekit = ImageKit(
 # HOW TO USE IT-
 
 There's no explanation required on how to use the code as it's pretty self-explanatory and easy to use!
+For instance, I have already registered with an account UsernameID - **3b890a3f** that belongs to **Elon Musk**.
+You can login with his ID and see if it recognizes Elon Musk's face!
