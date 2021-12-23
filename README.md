@@ -9,23 +9,26 @@ Before using the code, first make sure you have installed the appropriate Python
 #1. I'm assuming you are already familiar with the OpenCV Python library used in the Computer Vision Field.
 (i.e., ```pip install opencv-contrib-python```) - Pre-built CPU-only OpenCV package.
 
-#2. Install a .cpp[C++] based compiler so that the dlib python library will execute on Python platform!
+#2. I'm pretty sure if you're an ML enthusiastic, you also know about the Numpy Python library used in the Computer Vision Field.
+(i.e., ```pip install numpy```) - Besides its obvious scientific uses, NumPy can also be used as an efficient multi-dimensional container of generic data. Arbitrary data-types can be defined. This allows NumPy to seamlessly and speedily integrate with a wide variety of databases.
+
+#3. Install a .cpp[C++] based compiler so that the dlib python library will execute on Python platform!
 (i.e., Install Visual Studio Community 2019 and in the Workloads, select "DESKTOP DEVELOPMENT WITH C++")
 
-#3. Install DLib python library using pip command! Dlib is a general purpose cross-platform software library written in the programming language C++. You will have trouble installing these packages. Refer to online sources to install these python packages!
+#4. Install DLib python library using pip command! Dlib is a general purpose cross-platform software library written in the programming language C++. You will have trouble installing these packages. Refer to online sources to install these python packages!
 (i.e., ```pip install dlib```) - This command tries to download either (.whl - wheel file) or (.tar.gz - tar ball file) from https://pypi.org/project/dlib/#files
 
-#4. Install CMake python library!
+#5. Install CMake python library!
 (i.e., ```pip install cmake```) - CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice.
 
-#5. And finally, install Face Recognition Library that makes use of DLib and all the other previously mentioned libraries!
+#6. And finally, install Face Recognition Library that makes use of DLib and all the other previously mentioned libraries!
 (i.e., ```pip install face-recognition```) - Recognize and manipulate faces from Python or from the command line with
 the world’s simplest face recognition library.
 Built using dlib’s state-of-the-art face recognition
 built with deep learning. The model has an accuracy of 99.38% on the
 Labeled Faces in the Wild benchmark.
 
-#6. This next library is important only if you are using the code for "Facial-Login-Via-Internet" folder!
+#7. This next library is important only if you are using the code for "Facial-Login-Via-Internet" folder!
 (i.e., ```pip install imagekitio```) - library for storing images online!
 Make sure you register and get the keys arranged for yourself!
 
