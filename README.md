@@ -9,7 +9,7 @@ Before using the code, first make sure you have installed the appropriate Python
 #1. I'm assuming you are already familiar with the OpenCV Python library used for working with arrays. It also has functions for working in domain of linear algebra, fourier transform, and matrices.
 (i.e., ```pip install opencv-contrib-python```) - Pre-built CPU-only OpenCV package.
 
-#2. I'm pretty sure if you're an ML enthusiastic, you also know about the Numpy Python library used in the Computer Vision Field.
+#2. I'm pretty sure if you're an ML enthusiastic, you also know about the Numpy Python library used for working with arrays. It also has functions for working in domain of linear algebra, fourier transform, and matrices.
 (i.e., ```pip install numpy```) - Besides its obvious scientific uses, NumPy can also be used as an efficient multi-dimensional container of generic data. Arbitrary data-types can be defined. This allows NumPy to seamlessly and speedily integrate with a wide variety of databases.
 
 #3. Install a .cpp[C++] based compiler so that the dlib python library will execute on Python platform!
