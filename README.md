@@ -6,7 +6,7 @@ Before using the code, first make sure you have installed the appropriate Python
 
 **LIST -**
 
-#1. I'm assuming you are already familiar with the OpenCV Python library used in the Computer Vision Field.
+#1. I'm assuming you are already familiar with the OpenCV Python library used for working with arrays. It also has functions for working in domain of linear algebra, fourier transform, and matrices.
 (i.e., ```pip install opencv-contrib-python```) - Pre-built CPU-only OpenCV package.
 
 #2. I'm pretty sure if you're an ML enthusiastic, you also know about the Numpy Python library used in the Computer Vision Field.
